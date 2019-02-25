@@ -1,0 +1,19 @@
+{
+  "name": "siih",
+  "version": "1.0.0",
+  "description": "A product for sun pharma",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "capedcrusader",
+  "license": "ISC"
+}
