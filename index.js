@@ -5,22 +5,7 @@ const login=require('./route/loginroute.js')
 const ejs=require('ejs')
 const mysql=require('mysql');
 
-var db=mysql.createConnection({
-  host:'localhost',
-  user:'root',
-  password:'root',
-  database:'sih'
-});
-db.connect((err)=>{
-  if(err)
-  {
-    console.log(err)
-  }
-  else
-  {
-  console.log("MYSQL CONNECTED")  
-  }
-});
+
 
 
 
